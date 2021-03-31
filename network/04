@@ -1,0 +1,1 @@
+netstat -nr | awk '$1=="default" {print $2}'
